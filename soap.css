@@ -1,21 +1,46 @@
 body {
 
 }
-#soapgrid div {
-	
-}
 ul {
-	position: fixed;
+	position: fixed, top;
+	background-color: #0b2145;
+	color: white;
+	text-decoration: none;
+	width: 96%;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 li {
 	display: inline;
 	font-family: "Corbel";
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.6em;
+	font-family: "Corbel";
+	border-color: white;
+	border: solid;
+	border-radius: 20px;
+	box-shadow: 5px 5px, white;
+	padding: 5px;
+
+}
+a:hover {
+	color: #10870d;
+	border-color: white;
+
 }
 header {
 
 }
 section {
-
+	width: 100%;
 }
 h1 {
 
@@ -36,28 +61,32 @@ h6 {
 
 }
 p {
-	font-family: "Corbel";
+	font-family: "Baskerville Old Face";
 }
 img {
+	box-shadow: 2px 2px;
+}
+#home {
 
 }
-#first {
+#information {
 
 }
-#second {
+#smeltet {
 
 }
-#third {
+#andre {
 
 }
-#fourth {
-
-}
-#fifth {
+#guide {
 
 }
 footer {
 	text-align: center;
+	width: 100%;
+	color: #10870d;
+	position: bottom;
+	background-color: #0b2145;
 }
 @media only screen and (min-width: 600px) {
 
