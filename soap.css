@@ -1,19 +1,20 @@
 
+
   body { 
    
                 background: url(Ecol bakterier)no-repeat center center fixed;
                     -webkit-background-size: cover;
+
+    background: url(sorthvis.jpg)no-repeat center center fixed;
+                  -webkit-background-size: cover;
+
                         -moz-background-size: cover;
                             -o-background-size: cover;
-                background-size: cover;   
-            }
-
-
-body {
+    background-size: cover;   
 	display: grid;
 }
-ul {
-	position: fixed, top;
+#navbar {
+	position: fixed;
 	background-color: #0b2145;
 	color: white;
 	text-decoration: none;
@@ -32,6 +33,12 @@ li {
 	width: 100%;
 	align-content: center;
 }
+.opskrift {
+	display: block;
+	align-content: center;
+	font-size: 1.1em;
+	color: #0b2145;
+}
 a {
 	text-decoration: none;
 	color: white;
@@ -42,7 +49,6 @@ a {
 	border-radius: 20px;
 	box-shadow: 5px 5px, white;
 	padding: 5px;
-
 }
 a:hover {
 	color: #10870d;
@@ -50,7 +56,7 @@ a:hover {
 
 }
 header {
-	grid-row:
+	width: 100%;
 }
 section {
 	width: 100%;
@@ -59,7 +65,8 @@ section {
 }
 h1 {
 	font-family: "Corbel";
-	padding-left: 20px;
+	padding-left: 2%;
+	padding-right: 5%;
 }
 h2 {
 	font-family: "Corbel";
@@ -72,6 +79,8 @@ h4 {
 }
 h5 {
 	font-family: "Corbel";
+	padding-left: 2%;
+	padding-right: 5%;
 }
 h6 {
 	font-family: "Corbel";
@@ -79,6 +88,8 @@ h6 {
 p {
 	font-family: "Baskerville Old Face";
 	padding-left: 2%;
+	padding-right: 5%;
+}
 img {
 	box-shadow: 2px 2px;
 }
@@ -86,16 +97,20 @@ img {
 	grid-row: 
 }
 #information {
-	grid-row: 
+	grid-row:;
+	max-width: 80%;
 }
 #smeltet {
-	grid-row: 
+	grid-row:;
+	max-width: 80%;
 }
 #andre {
-	grid-row: 
+	grid-row:;
+	max-width: 80%;
 }
 #guide {
-	grid-row: 
+	grid-row:;
+	max-width: 80%;
 }
 footer {
 	text-align: center;
