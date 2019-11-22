@@ -1,3 +1,4 @@
+
   body { 
    
                 background: url(sorthvis.jpg)no-repeat center center fixed;
@@ -7,17 +8,21 @@
                 background-size: cover;   
             }
 
+
+body {
+	display: grid;
 }
 ul {
 	position: fixed, top;
 	background-color: #0b2145;
 	color: white;
 	text-decoration: none;
-	width: 96%;
+	width: 100%;
 	height: 30px;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+
 }
 li {
 	display: inline;
@@ -25,6 +30,7 @@ li {
 	color: white;
 	text-decoration: none;
 	width: 100%;
+	align-content: center;
 }
 a {
 	text-decoration: none;
@@ -44,49 +50,52 @@ a:hover {
 
 }
 header {
-
+	grid-row:
 }
 section {
 	width: 100%;
+	padding-left: 1%;
+	margin-right: 2%;
 }
 h1 {
-
+	font-family: "Corbel";
+	padding-left: 20px;
 }
 h2 {
-
+	font-family: "Corbel";
 }
 h3 {
-
+	font-family: "Corbel";
 }
 h4 {
-
+	font-family: "Corbel";
 }
 h5 {
-
+	font-family: "Corbel";
 }
 h6 {
-
+	font-family: "Corbel";
 }
 p {
 	font-family: "Baskerville Old Face";
-}
+	padding-left: 2%;
 img {
 	box-shadow: 2px 2px;
 }
 #home {
-
+	grid-row: 
 }
 #information {
-
+	grid-row: 
 }
 #smeltet {
-
+	grid-row: 
 }
 #andre {
-
+	grid-row: 
 }
 #guide {
-
+	grid-row: 
 }
 footer {
 	text-align: center;
@@ -94,6 +103,9 @@ footer {
 	color: #10870d;
 	position: bottom;
 	background-color: #0b2145;
+}
+#footer {
+	font-family: "Corbel";
 }
 @media only screen and (min-width: 600px) {
 
