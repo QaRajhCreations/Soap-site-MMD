@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin: 1em;
+    
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    border-color: #000000;
+    border-width: 1px;
+    border-style:inset
+}
+
+#mitgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0,5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+
+
+        grid-template-areas:
+    
+        
+                "a a a a a a a a"
+                "b b c c c c d d"
+                "e e c c c c d d"
+                "f f c c c c d d"
+                "g g c c c c d d"
+                "h h h h i i i i"
+                "j j j j k k k k"
+                
+        }
+
+                #mitgrid div:nth-child(1) {
+                    background-color: #fff; 
+                    grid-area: a;
+                }
+
+                #b {
+                    background-color: #fff;
+                    grid-area: b;
+                }
+
+                #c {
+                    background-color: #fff;
+                    grid-area: c;
+                }
+
+                #d {
+                    background-color: #fff;
+                    grid-area: d;
+                }
+
+                #e {
+                    background-color: #fff;
+                    grid-area: e;
+                }
+
+                #f {
+                    background-color: #fff;
+                    grid-area: f;
+                }
+
+                #g {
+                    background-color: #fff;
+                    grid-area: g;
+                }
+
+                #h {
+                    background-color: #fff;
+                    grid-area: h;
+                }
+
+                #i {
+                    background-color: #fff;
+                    grid-area: i;
+                }
+
+                #j {
+                    background-color: #fff;
+                    grid-area: j;
+                }
+
+                #k {
+                    background-color: #fff;
+                    grid-area: k;
+                }
+
+              
