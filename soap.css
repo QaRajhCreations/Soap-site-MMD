@@ -1,10 +1,6 @@
-
-
-  body { 
-   
-                background: url(Ecol bakterier)no-repeat center center fixed;
-                    -webkit-background-size: cover;
-
+body { 
+    background: url(Ecol bakterier)no-repeat center center fixed;
+    -webkit-background-size: cover;
     background: url(sorthvis.jpg)no-repeat center center fixed;
                   -webkit-background-size: cover;
 
@@ -25,6 +21,14 @@
 	padding-bottom: 10px;
 
 }
+ol {
+	list-style-type: lower-alpha;
+}
+.work {
+	list-style-type: circle;
+	color: #0b2145;
+	display: block;
+}
 li {
 	display: inline;
 	font-family: "Corbel";
@@ -38,6 +42,7 @@ li {
 	align-content: center;
 	font-size: 1.1em;
 	color: #0b2145;
+	list-style-type: lower-alpha;
 }
 a {
 	text-decoration: none;
@@ -67,15 +72,22 @@ h1 {
 	font-family: "Corbel";
 	padding-left: 2%;
 	padding-right: 5%;
+	color: #0b2145;
 }
 h2 {
 	font-family: "Corbel";
+	padding-left: 2%;
+	padding-right: 5%;
 }
 h3 {
 	font-family: "Corbel";
+	padding-left: 2%;
+	padding-right: 5%;
 }
 h4 {
 	font-family: "Corbel";
+	padding-left: 2%;
+	padding-right: 5%;
 }
 h5 {
 	font-family: "Corbel";
@@ -84,6 +96,8 @@ h5 {
 }
 h6 {
 	font-family: "Corbel";
+	padding-left: 2%;
+	padding-right: 5%;
 }
 p {
 	font-family: "Baskerville Old Face";
@@ -103,10 +117,13 @@ img {
 #smeltet {
 	grid-row:;
 	max-width: 80%;
-}
+	list-style-type: lower-alpha;
+	}
 #andre {
 	grid-row:;
 	max-width: 80%;
+	list-style-type: circle;
+	color: #10870d;
 }
 #guide {
 	grid-row:;
