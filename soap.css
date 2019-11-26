@@ -43,6 +43,7 @@ li {
 	font-size: 1.1em;
 	color: #0b2145;
 	list-style-type: lower-alpha;
+	max-width: 80%
 }
 a {
 	text-decoration: none;
@@ -104,30 +105,34 @@ p {
 	padding-left: 2%;
 	padding-right: 5%;
 }
+p.info {
+	max-width: 80%;
+}
 img {
 	box-shadow: 2px 2px;
 }
 #home {
-	grid-row: 
+	grid-row:;
+	width: 100%;
 }
 #information {
 	grid-row:;
-	max-width: 80%;
+	max-width: 100%;
 }
 #smeltet {
 	grid-row:;
-	max-width: 80%;
+	max-width: 100%;
 	list-style-type: lower-alpha;
 	}
 #andre {
 	grid-row:;
-	max-width: 80%;
+	max-width: 100%;
 	list-style-type: circle;
 	color: #10870d;
 }
 #guide {
 	grid-row:;
-	max-width: 80%;
+	max-width: 100%;
 }
 footer {
 	text-align: center;
@@ -138,6 +143,16 @@ footer {
 }
 #footer {
 	font-family: "Corbel";
+}
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+ 	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	color: #10870d;
 }
 @media only screen and (min-width: 600px) {
 
