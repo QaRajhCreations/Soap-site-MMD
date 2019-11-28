@@ -1,16 +1,58 @@
-body {
-    font-family: sans-serif;
-    background-color: #ffffff;
-    margin: 1em;
-    
+body{ 
+  background: url(8410882716_2604e5af6b_b.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+            p{
+                font-family: "Baskerville Old Face";
+                color: #6becc2;
+                padding-left: 10px;
+                font-size: 1,5em;
+            }
+
+h1 {
+    font-family: "Corbel";
+    padding-left: 2%;
+    padding-right: 5%;
+    text-align: center;
+    color: #6becd5;
+}
+h2 {
+    font-family: "Corbel";
+    padding-left: 2%;
+    padding-right: 5%;
+    color: #6becc2;
+}
+h3 {
+    font-family: "Corbel";
+    padding-left: 2%;
+    padding-right: 5%;
+    color: #6beca8;
+}
+h4 {
+    font-family: "Corbel";
+    padding-left: 2%;
+    padding-right: 5%;
+    color: #6becc2;
+
+}
+h5 {
+    font-family: "Corbel";
+    padding-left: 2%;
+    padding-right: 5%;
+    color: #6bec81;
+}
+
 
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #161b2f;
   position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the bottom of the page */
+  top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
 
@@ -22,101 +64,368 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Baskerville Old Face";
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
+  background: #6becd5;
   color: black;
 }
 
 /* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
 }
 
-#mitgrid div {
-    font-size: 2em; 
-    color: #000000;
+#a {
+    font-size: 5em;
     text-align: center;
-    border-color: #000000;
-    border-width: 1px;
-    border-style:inset
+    color: #6becd5;
 }
 
-#mitgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0,5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+#h {
+    padding-bottom: 100px;
+}
+
+
+img {
+  width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #7c7676);
+  filter: drop-shadow(5px 5px 5px #7c7676);
+}
+
+.lighta {
+-webkit-filter: drop-shadow(-5px 5px 1px #6becd5);
+filter: drop-shadow(-5px 5px 1px #6becd5);
+}
+
+.light {
+-webkit-filter: drop-shadow(5px 5px 1px #6becd5);
+filter: drop-shadow(5px 5px 1px #6becd5);
+}
+
+.dark {
+-webkit-filter: drop-shadow(-20px 5px 1px #0b0b0b);
+filter: drop-shadow(-20px 5px 1px #0b0b0b); 
+}
+
+.lightb {
+-webkit-filter: drop-shadow(0px 0px 10px 7px #6becd5);
+filter: drop-shadow(0px 0px 1px 7px #6becd5);
+}
+
+.responsiv {
+
+}
+
+#mitgrid div { 
+    
+    border-width: 1px;
+    border-style:none;
+}
+
+#mitgrid { /*mobile first*/
+
+            height: 100%;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            }
+
+        @media screen and (min-width: 320px) {
+          .left, .main, .right {
+            width: 100%;
+            }
+
+#mitgrid { /*mobile first*/
+
+            height: 100%;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            }
+
+        @media screen and (min-width: 768px) {
+          .left, .main, .right {
+            width: 100%;
+            }
+    
+#mitgrid { /*desktop version*/
+
+          height: 100px;
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-auto-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
 
 
         grid-template-areas:
     
         
-                "a a a a a a a a"
-                "b b c c c c d d"
-                "e e c c c c d d"
-                "f f c c c c d d"
-                "g g c c c c d d"
-                "h h h h i i i i"
-                "j j j j k k k k"
+                "x x x x x x x x x x x x x"
+                "a a a a a a a a a a a a a"
                 
+                "b b b b b b b b b b b b b"
+                
+                ". . c c c c c c c c c . ."
+                ". . c c c c c c c c c . ."
+                
+                "d d d d d d d d d d d d d"
+                
+                "e e e e e e e e e e e e e"
+                "f f f f f f f . . . . . ."
+                "f f f f f f f g g g g g g"
+                "f f f f f f f . . . . . ."
+
+                
+                
+                "i i i i i i i i i i i i i"
+                "j j j j j j j j j j j j j"
+                "T T U U U U k k k k k k k"
+                
+                
+                "l l l l l l l l l l l l l"
+                "m m m m m m m m m m m m m"
+                "n o p q r s t u v A B C D"
+                "E F G H I J K L M N O P Q"
+
+                "R R R R R R R R R R R R R"
+                "S S S S S S S S S S S S S"
+
+                ". ima imb imc imd ime imf imh imi imj imk iml ."
+                "h h h h h h h h h h h h h"
+
+
+             
+                
+                
+                
+                        
         }
 
                 #mitgrid div:nth-child(1) {
-                    background-color: #fff; 
+                     
                     grid-area: a;
+                    bord
                 }
 
                 #b {
-                    background-color: #fff;
                     grid-area: b;
                 }
 
                 #c {
-                    background-color: #fff;
                     grid-area: c;
                 }
 
-                #d {
-                    background-color: #fff;
+                #d {   
                     grid-area: d;
                 }
 
-                #e {
-                    background-color: #fff;
+                #e { 
                     grid-area: e;
                 }
 
                 #f {
-                    background-color: #fff;
                     grid-area: f;
                 }
 
                 #g {
-                    background-color: #fff;
                     grid-area: g;
                 }
 
                 #h {
-                    background-color: #fff;
                     grid-area: h;
                 }
 
                 #i {
-                    background-color: #fff;
                     grid-area: i;
                 }
 
                 #j {
-                    background-color: #fff;
                     grid-area: j;
                 }
 
-                #k {
-                    background-color: #fff;
+                #k { 
                     grid-area: k;
+                    text-align: justify;
                 }
 
-              
+
+
+                #l {
+                    grid-area: l;
+                }
+
+                #m { 
+                    grid-area: m;
+                }
+
+                #n { 
+                    grid-area: n;
+                }
+
+                #o {  
+                    grid-area: o;
+                }
+
+                #p { 
+                    grid-area: p;
+                }
+
+                #q {
+                    grid-area: q;
+                }
+
+                #r {   
+                    grid-area: r;
+                }
+
+                #s { 
+                    grid-area: s;
+                }
+
+                #t { 
+                    grid-area: t;
+                }
+
+                #u {
+                    grid-area: u;
+                }
+
+                #v { 
+                    grid-area: v;
+                }
+
+                 #x { 
+                    grid-area: x;
+                }
+
+
+                #A { 
+                    grid-area: A;
+                }
+                #B { 
+                    grid-area: B;
+                }
+                #C { 
+                    grid-area: C;
+                }
+                #D { 
+                    grid-area: D;
+                }
+                #E { 
+                    grid-area: E;
+                }
+                #F { 
+                    grid-area: F;
+                }
+                #G { 
+                    grid-area: G;
+                }
+                #H { 
+                    grid-area: H;
+                }
+                #I { 
+                    grid-area: I;
+                }
+                #J { 
+                    grid-area: J;
+                }
+                #K { 
+                    grid-area: K;
+                }
+                #L { 
+                    grid-area: L;
+                }
+                #M { 
+                    grid-area: M;
+                }
+                #N { 
+                    grid-area: N;
+                }
+                #O { 
+                    grid-area: O;
+                }
+                #P { 
+                    grid-area: P;
+                }
+                #Q { 
+                    grid-area: Q;
+                }
+                #R { 
+                    grid-area: R;
+                }
+                #S { 
+                    grid-area: S;
+                }
+
+                #T { 
+                    grid-area: T;
+                }
+
+                #U { 
+                    grid-area: U;
+                    text-align: right;
+                }
+
+                #img1 { 
+                    grid-area: ima;
+                }
+
+                 #img2 { 
+                    grid-area: imb;
+                }
+
+                 #img3 { 
+                    grid-area: imc;
+                }
+
+                 #img4 { 
+                    grid-area: imd;
+                }
+
+                 #img5 { 
+                    grid-area: ime;
+                }
+
+                 #img6 { 
+                    grid-area: imf;
+                }
+
+                 #img7 { 
+                    grid-area: imh;
+                }
+
+                 #img8 { 
+                    grid-area: imi;
+                }
+
+                 #img9 { 
+                    grid-area: imj;
+                }
+
+                 #img10 { 
+                    grid-area: imk;
+                }
+
+                 #img11 { 
+                    grid-area: iml;
+                }
+
+               
+
+        footer {
+    text-align: center;
+    width: 100%;
+    color: #10870d;
+    position: fixed; bottom: 0;
+    background-color: #161b2f;
+}
+#footer {
+    font-family: "Corbel";
+}        
+
